@@ -1,0 +1,10 @@
+<resources>
+    <style name="Widget.Theme.Paykomandy.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Autres attributs -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

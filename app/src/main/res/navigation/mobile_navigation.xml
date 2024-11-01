@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_welcom">
+
+    <fragment
+        android:id="@+id/navigation_welcom"
+        android:name="pj.ikomandy.paykomandy.ui.welcom.WelcomFragment"
+        tools:layout="@layout/fragment_welcom" />
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="pj.ikomandy.paykomandy.ui.auth.ui.login.LoginFragment"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="pj.ikomandy.paykomandy.ui.home.HomeFragment"
+        android:label="@string/title_operation"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="pj.ikomandy.paykomandy.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="pj.ikomandy.paykomandy.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
